@@ -16,3 +16,7 @@ I did that contest two times already. In 2012, I released [Inspiration](http://w
 In fact, I came up with the idea of Spaceship Delay a long time ago already, I just decided to give it a go for the KVR DC 16 when I saw that KVR organized again a contest this year. The thing is I have all the Korg Monotron little synths at home, and even if I don't use that much, I love the idea behind, and more specifically I love this one :
 
 {% include youtubePlayer.html id="CNXOI1AIjKo" %}
+
+So I was thinking : what if you could use it as an effect ? And what about designing a convenient plug-in to do so ? A few hours later, I was coding a simple Korg MS-20 filter simulation, and I put it into a delay line. And it sounded already really amazing ! Then, 3-4 weeks ago, I started coding a plug-in using that simulation as a basis, and the all the important things that we would want in a good delay plug-in. I had also the chance to rent another amazing device, called the Dynacord Echocord Super 76, which is a tape delay machine with a spring reverb, more focused than a Roland Space Echo, but which sounds really good too. Now I don't have it anymore, but I have studied it for a few weeks, and I had captured some impulse responses from it. So, I decided also to include a simulation of that spring reverb thanks to convolution also, and I am very happy with the results.
+
+![Dynacord Echocord Super 76]({{site.baseurl}}/images/Super76.png)
