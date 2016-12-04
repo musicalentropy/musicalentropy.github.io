@@ -15,4 +15,4 @@ I did that contest two times already. In 2012, I released [Inspiration](http://w
 
 In fact, I came up with the idea of Spaceship Delay a long time ago already, I just decided to give it a go for the KVR DC 16 when I saw that KVR organized again a contest this year. The thing is I have all the Korg Monotron little synths at home, and even if I don't use that much, I love the idea behind, and more specifically I love this one :
 
-{% include youtubePlayer.html id=page.CNXOI1AIjKo %}
+{% include youtubePlayer.html id="CNXOI1AIjKo" %}
