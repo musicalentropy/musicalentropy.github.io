@@ -29,4 +29,4 @@ I had also a very good idea for the user interface, which is why I called my plu
 
 So, here we are again ! I'm very happy to do that contest again and I hope I will "perform" better than last times but still, I know I will learn a lot of things again ! And I'm already happy with the first reviews I got. I'm also very happy to see Mr. Wavesfactory doing something for the KVR DC 16, since I have been giving him JUCE/DSP lessons over the past months, and he did the Snare Buzz plug-in all alone. I did use his toy and the Siren from Noise Machines to do a little audio demo for my entry yesterday.
 
-I hope you'll enjoy Spaceship Delay, and if you are a KVR forum member, don't hesitate to vote for me if you liked the plug-in !
+I hope you'll enjoy Spaceship Delay, and if you are a KVR forum member, don't hesitate to vote for me if you like the plug-in !
