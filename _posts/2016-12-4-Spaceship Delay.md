@@ -3,8 +3,6 @@ layout: post
 title: Spaceship Delay presentation and KVR DC 16
 ---
 
-Hello again !
-
 Today, I'm going to present you the new freeware audio plug-in that I have released for the [KVR Developer Challenge 2016](http://www.kvraudio.com/kvr-developer-challenge/2016/). It is called Spaceship Delay, and you can grab it [here](https://www.kvraudio.com/kvr-developer-challenge/2016/#dc16-12755).
 
 ![Spaceship Delay Screenshot](http://static.kvraudio.com/i/b/screenshot-4.png)
@@ -29,7 +27,7 @@ Then, I did some digging about all the things that people like in delay plug-ins
 
 {% include youtubePlayer.html id="LhkXNCmctHw" %}
 
-I had also a very good idea for the user interface, which is why I called my plug-in "Spaceship Delay", but... unfortunately I underestimated a lot the amount of time necessary to make it a reality, so with a lot of frustration, I had to keep using the prototype user interface for the KVR DC 16 plug-in itself as well. Hopefully for you readers, I plan to update the UI when the contest is done ! And I got that idea of putting a manual / tutorial embedded in a plug-in for a long time, from the moment I saw that feature in Ableton Live. I was thinking about putting it in Guitar Gadgets 2 years ago but I didn't have enough time. For the KVR DC 16, I did succeed, and I'm happy with the result there too. Designing something like that for my recent [JUCE Summit / ADC talks](https://www.youtube.com/channel/UCaF6fKdDrSmPDmiZcl9KLnQ) might have helped
+I had also a very good idea for the user interface, which is why I called my plug-in "Spaceship Delay", but... unfortunately I underestimated a lot the amount of time necessary to make it a reality, so with a lot of frustration, I had to keep using the prototype user interface for the KVR DC 16 plug-in itself as well. Hopefully for you readers, I plan to update the UI when the contest is done ! And I got that idea of putting a manual / tutorial embedded in a plug-in for a long time, from the moment I saw that feature in Ableton Live. I was thinking about putting it in Guitar Gadgets 2 years ago but I didn't have enough time. For the KVR DC 16, I did succeed, and I'm happy with the result there too. Designing something like that for my recent [JUCE Summit / ADC talks](https://www.youtube.com/channel/UCaF6fKdDrSmPDmiZcl9KLnQ) might have helped too.
 
 ## Final words
 
