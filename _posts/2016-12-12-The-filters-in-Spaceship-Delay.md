@@ -38,13 +38,9 @@ My implementation, like for the Korg MS-20 filter, isn't that realistic yet, sin
 
 As you can see, for people knowing how to read a synthesizer filter schematic, it's a filter looking more or less like a Twin-T VCF, acting like a lowpass filter, but removing also a little in the bass frequency range, giving it a very interesting sound signature in my opinion. It is possible to study it further by determinating its transfer function from the electronic equations :
 
-\\()
-H(s) = - \frac{R_2}{R_1} \frac{1 + C s (2 R_F + R_Q) + R_F R_Q (C s)^2}{1 + C s (2 R_F + R_Q) + R_F (R_2 + R_Q) (C s)^2} 
-\\)
+$ H(s) = - \frac{R_2}{R_1} \frac{1 + C s (2 R_F + R_Q) + R_F R_Q (C s)^2}{1 + C s (2 R_F + R_Q) + R_F (R_2 + R_Q) (C s)^2} $
 
-\\(
-H(s)
-\\)
+$ H(s) $
 
 I've made it zero delay feedback, but the way it saturates is still far from the original in my opinion, so I'm going to improve my model over the next weeks, and I'll probably start by updating the mapping of the controls so it behaves like the original at least in a strictly linear sense.
 
