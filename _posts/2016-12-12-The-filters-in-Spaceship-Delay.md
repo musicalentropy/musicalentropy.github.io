@@ -7,7 +7,7 @@ In that new blog post I'm going to talk about the filter algorithms that are imp
 
 ## Low/High Cut and Low/High Shelf
 
-These filters are more or less the standard 2nd order filters or "biquads", modeling the analog circuit called State Variable Filter (SVF) behaviour, with a -12 dB/octave attenuation. The equations are derived from the famous [Robert-Bristow Johnson EQ Audio Cookbook](http://www.musicdsp.org/files/Audio-EQ-Cookbook.txt) that every DSP engineer in the world knows, and uses sometimes without even knowing. Same for most of filter algorithms available in commercial software ! 
+These filters are more or less the standard 2nd order filters or "biquads", modeling the analog circuit called State Variable Filter (SVF) behaviour, with a -12 dB/octave attenuation. The equations are derived from the famous [Robert-Bristow Johnson EQ Audio Cookbook](http://www.musicdsp.org/files/Audio-EQ-Cookbook.txt) that every DSP engineer in the world knows, and uses sometimes without even knowing. Same for most of filter algorithms available in commercial software. 
 
 However, the original implementation does have some drawbacks well known, that I have been talking about in my recent [Audio Developer Conference talk](https://www.youtube.com/watch?v=esjHXGPyrhg). The two main drawbacks applies to the behaviour of the filters in the high frequency range, and when the cutoff frequency is modulated fast. In the first case, a lowpass filter for example is attenuating way too much the high frequencies close to half of the sampling rate. In the second case, a quick modulation with the original implementation, using a simulation structure called Direct Form, produces high amplitude artefacts at modulation. 
 
@@ -28,7 +28,7 @@ I'm not that proud of the realism and simulation quality of the result, since I'
 For those who have read the embedded tutorial in Spaceship Delay, or seen the other blog posts, you already know the true identity of that filter. It is the one that can be found in the [Meeblip Anode and Triode synthesizers](https://meeblip.com/), made by Peter Kirn from [Create Digital Music](http://cdm.link/) and James Grahame from [Blipsonic / Meeblip](https://meeblip.com/).
 
 {:refdef: style="textalign: center;"}
-![Meeblip Anode and Triode]({{site.baseurl}}/images/Meeblip-Synths.png){: refdef}
+![Meeblip Anode and Triode]({{site.baseurl}}/images/Meeblip-synths.png){: refdef}
 
 I spent a lot of time studying the schematic of the filter that is available on [GitHub](https://github.com/meeblip), covered by a permissive Creative Commons and GPLv3 license, since the Meeblip hardware + software is open source ! I wanted a filter in Spaceship Delay which would have second order attenuation like the Korg MS-20 filter (and not like the famous ladder filters), and the result sounded surprinsingly good too when put in a delay line.
 
@@ -39,6 +39,8 @@ My implementation, like for the Korg MS-20 filter, isn't that realistic yet, sin
 As you can see, for people knowing how to read a synthesizer filter schematic, it's a filter looking more or less like a Twin-T VCF, acting like a lowpass filter, but removing also a little in the bass frequency range, giving it a very interesting sound signature in my opinion. It is possible to study it further by determinating its transfer function from the electronic equations :
 
 $$ H(s) = - \frac{R_2}{R_1} \frac{1 + C s (2 R_F + R_Q) + R_F R_Q (C s)^2}{1 + C s (2 R_F + R_Q) + R_F (R_2 R_Q) (C s)^2} $$
+
+$$ H(s) $$
 
 I've made it zero delay feedback, but the way it saturates is still far from the original in my opinion, so I'm going to improve my model over the next weeks, and I'll probably start by updating the mapping of the controls so it behaves like the original at least in a strictly linear sense.
 
