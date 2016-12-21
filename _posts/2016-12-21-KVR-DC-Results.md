@@ -15,4 +15,4 @@ I would like also to tell you that I'm very happy about having a blog post about
 
 And last thing, I have just updated Spaceship Delay to [version 1.0.5](http://www.kvraudio.com/product/spaceship-delay-by-musical-entropy/details). The new version includes a few things people wanted for a long time : mono/stereo versions of the plug-in for Pro Tools, Logic Pro X etc., a selector for the location of the Post-FX (before or after the mix control), a new tremolo Post FX and extra modulation options applied to the low-pass filters. There are also new presets and some extra tutorial content, so I suggest you to update your presets / tutorial folders as well.
 
-That's it for today. I'll probably talk again Spaceship Delay very soon since I have big plans for it in the future !
+That's it for today. I'll probably talk again about Spaceship Delay very soon since I have big plans for it in the future !
