@@ -30,7 +30,7 @@ For those who have read the embedded tutorial in Spaceship Delay, or seen the ot
 {:refdef: style="textalign: center;"}
 ![Meeblip Anode and Triode]({{site.baseurl}}/images/Meeblip-synths.png){: refdef}
 
-I spent a lot of time studying the schematic of the filter that is available on [GitHub](https://github.com/meeblip), covered by a permissive Creative Commons and GPLv3 license, since the Meeblip hardware + software is open source ! I wanted a filter in Spaceship Delay which would have second order attenuation like the Korg MS-20 filter (and not like the famous ladder filters), and the result sounded surprinsingly good too when put in a delay line.
+I have spent a lot of time studying the schematic of the filter that is available on [GitHub](https://github.com/meeblip), covered by a permissive Creative Commons and GPLv3 license, since the Meeblip hardware + software is open source ! I wanted a filter in Spaceship Delay which would have second order attenuation like the Korg MS-20 filter (and not like the famous ladder filters), and the result sounded surprinsingly good too when put in a delay line.
 
 My implementation, like for the Korg MS-20 filter, isn't that realistic yet, since I used a simplified model, and because I have not reproduced yet the same mapping for the cutoff and resonance knobs than the one in the original units. However, my model is based on the equations of the original circuit, that I have studied first in [LTSpice](http://www.linear.com/designtools/software/) and then in a simulation context to make it sound as good as possible.
 
