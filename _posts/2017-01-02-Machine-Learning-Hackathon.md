@@ -50,6 +50,8 @@ Anyway, there is a JUCE module RapidMix being developed right now. Machine Learn
 
 I'd like to say also that I'm curious about the next developments in RapidMix, to see how it will perform compared with other Machine Learning APIs for C++. And I would love to add in Spaceship Delay some Machine Learning features I have in mind...
 
+Anyway, thanks to all the people involved in this hackathon for organizing it, it was great to talk with them and with the participants back then !
+
 ## Bibliography
 
 If you want to learn more about Machine Learning, there are tons of information sources on the internet, but I suggest you to have a look there in priority :
