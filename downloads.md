@@ -6,11 +6,11 @@ permalink: /downloads/
 
 You will find on this page the links to download current Musical Entropy plug-ins creations.
 
-#### Spaceship Delay v1.0.5 (last update December 21th 2016)
+#### Spaceship Delay v1.0.6 (last update January 20th 2017)
 
-Windows 7+ VST/AAX 32/64 bits : [Link](https://static.kvraudio.com/files/1944/spaceshipdelaywin_1_0_5.zip)
+Windows 7+ VST/AAX 32/64 bits : [Link](https://static.kvraudio.com/files/1944/spaceshipdelaywin_1_0_6.zip)
 
-Mac OS X 10.9+ VST/AU/AAX 32/64 bits : [Link](https://static.kvraudio.com/files/1944/spaceshipdelaymac_1_0_5.zip)
+Mac OS X 10.9+ VST/AU/AAX 32/64 bits : [Link](https://static.kvraudio.com/files/1944/spaceshipdelaymac_1_0_6.zip)
 
 #### Guitar Gadgets v1.3.3 (last update March 16th 2016)
 
