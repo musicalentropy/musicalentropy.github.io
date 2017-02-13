@@ -12,11 +12,11 @@ Windows 7+ VST/AAX 32/64 bits : [Link](https://static.kvraudio.com/files/1944/sp
 
 Mac OS X 10.9+ VST/AU/AAX 32/64 bits : [Link](https://static.kvraudio.com/files/1944/spaceshipdelaymac_1_0_6.zip)
 
-#### Guitar Gadgets v1.3.3 (last update March 16th 2016)
+#### Guitar Gadgets v1.3.4 (last update February 13th 2017)
 
-Windows 7+ VST 32/64 bits : [Link](http://static.kvraudio.com/files/1944/guitargadgetswin.zip)
+Windows 7+ VST 32/64 bits : [Link](http://static.kvraudio.com/files/1944/guitargadgetswin_1_3_4.zip)
 
-Mac OS X 10.6+ VST/AU 32/64 bits : [Link](http://static.kvraudio.com/files/1944/guitargadgetsmac.zip)
+Mac OS X 10.7+ VST/AU 32/64 bits : [Link](http://static.kvraudio.com/files/1944/guitargadgetsmac_1_3_4.zip)
 
 #### Inspiration v1.2.0 (last update April 13th 2015)
 
