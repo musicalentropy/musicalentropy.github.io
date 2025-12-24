@@ -14,11 +14,11 @@ macOS 10.13+ VST3/AU: [Link](https://static.kvraudio.com/files/1944/spaceshipdel
 
 #### The Great Escape v0.1.2 (last update April 10th 2020)
 
-Windows 10+ VST3/AAX: [Link][https://musicalentropy.com/files/TheGreatEscape-0.1.2-win.zip]
+Windows 10+ VST3/AAX: [Link](https://musicalentropy.com/files/TheGreatEscape-0.1.2-win.zip)
 
-macOS 10.13+ VST3/AU/AAX: [Link][https://musicalentropy.com/files/TheGreatEscape-0.1.2-win.zip]
+macOS 10.13+ VST3/AU/AAX: [Link](https://musicalentropy.com/files/TheGreatEscape-0.1.2-win.zip)
 
-Linux: [Link][https://musicalentropy.com/files/TheGreatEscape-0.1.2-ubuntu16.zip]
+Linux: [Link](https://musicalentropy.com/files/TheGreatEscape-0.1.2-ubuntu16.zip)
 
 #### Spaceship Delay v1.0.6 (last update January 20th 2017)
 
