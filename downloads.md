@@ -16,7 +16,7 @@ macOS 10.13+ VST3/AU: [Link](https://static.kvraudio.com/files/1944/spaceshipdel
 
 Windows 10+ VST3/AAX: [Link](https://musicalentropy.com/files/TheGreatEscape-0.1.2-win.zip)
 
-macOS 10.13+ VST3/AU/AAX: [Link](https://musicalentropy.com/files/TheGreatEscape-0.1.2-win.zip)
+macOS 10.13+ VST3/AU/AAX: [Link](https://musicalentropy.com/files/TheGreatEscape-0.1.2-mac.zip)
 
 Linux: [Link](https://musicalentropy.com/files/TheGreatEscape-0.1.2-ubuntu16.zip)
 
