@@ -6,19 +6,21 @@ permalink: /downloads/
 
 You will find on this page the links to download current Musical Entropy plug-ins creations.
 
-#### Spaceship Delay v1.4.3 (last update December 24th 2025)
+#### Spaceship Delay v1.4.4 (last update February 5th 2026)
 
-Windows 10+ VST3: [Link](https://static.kvraudio.com/files/1944/spaceshipdelay-windows-1-4-3.zip)
+Windows 10+ VST3/AAX: [Link](https://static.kvraudio.com/files/1944/spaceshipdelay-windows-1-4-4.zip)
 
-macOS 10.13+ VST3/AU: [Link](https://static.kvraudio.com/files/1944/spaceshipdelay-macos-1-4-3.zip)
+macOS 10.13+ VST3/AU/AAX: [Link](https://static.kvraudio.com/files/1944/spaceshipdelay-macos-1-4-4.zip)
 
-#### The Great Escape v0.1.2 (last update April 10th 2020)
+Linux Ubuntu22+ VST3/LV2/CLAP: [Link](https://static.kvraudio.com/files/1944/spaceshipdelay-ubuntu22-1-4-4.zip)
 
-Windows 10+ VST3/AAX: [Link](https://musicalentropy.com/files/TheGreatEscape-0.1.2-win.zip)
+#### The Great Escape v1.2.0 (last update February 5th 2026)
 
-macOS 10.13+ VST3/AU/AAX: [Link](https://musicalentropy.com/files/TheGreatEscape-0.1.2-mac.zip)
+Windows 10+ VST3/AAX: [Link](https://musicalentropy.com/files/TheGreatEscape-1.2.0-win.zip)
 
-Linux: [Link](https://musicalentropy.com/files/TheGreatEscape-0.1.2-ubuntu16.zip)
+macOS 10.13+ VST3/AU/AAX: [Link](https://musicalentropy.com/files/TheGreatEscape-1.2.0-mac.zip)
+
+Linux Ubuntu22+ VST3/LV2/CLAP: [Link](https://musicalentropy.com/files/TheGreatEscape-1.2.0-ubuntu22.zip)
 
 #### Spaceship Delay v1.0.6 (last update January 20th 2017)
 
