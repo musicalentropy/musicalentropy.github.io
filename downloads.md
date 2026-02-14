@@ -6,7 +6,7 @@ permalink: /downloads/
 
 You will find on this page the links to download current Musical Entropy plug-ins creations.
 
-#### Spaceship Delay v1.4.4 (last update February 5th 2026)
+#### Spaceship Delay v1.4.4 (last update February 8th 2026)
 
 Windows 10+ VST3/AAX: [Link](https://static.kvraudio.com/files/1944/spaceshipdelay-windows-1-4-4.zip)
 
