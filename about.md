@@ -18,13 +18,13 @@ Today, he is looking for opportunities to work with other companies on audio eff
 
 - Ivan Cohen, Thomas Hélie. [Simulation of a guitar amplifier stage for several triode models: examination of some relevant phenomena and choice of adapted numerical schemes](https://hal.archives-ouvertes.fr/hal-00631757). **127th Convention of Audio Engineering Society, Oct 2009, New York, United States**
 
-- Ivan Cohen, Thomas Hélie. <a href="https://hal.archives-ouvertes.fr/hal-00542873" target="_blank">[Simulation temps-réel d'un étage électronique non linéaire d'amplificateur guitare, et améliorations à l'aide de mesures de triodes (in French only)]. **Société Française d'Acoustique - SFA. 10ème Congrès Français d'Acoustique, Apr 2010, Lyon, France. 2010**
+- Ivan Cohen, Thomas Hélie. [Simulation temps-réel d'un étage électronique non linéaire d'amplificateur guitare, et améliorations à l'aide de mesures de triodes (in French only)](https://hal.archives-ouvertes.fr/hal-00542873). **Société Française d'Acoustique - SFA. 10ème Congrès Français d'Acoustique, Apr 2010, Lyon, France. 2010**
 
-- Ivan Cohen, Thomas Hélie. <a href="https://hal.archives-ouvertes.fr/hal-00631752" target="_blank">[Real-time simulation of a guitar power amplifier]. **13th Int. Conference on Digital Audio Effects (DAFx-10), Sep 2010, Graz, Austria**
+- Ivan Cohen, Thomas Hélie. [Real-time simulation of a guitar power amplifier](https://hal.archives-ouvertes.fr/hal-00631752). **13th Int. Conference on Digital Audio Effects (DAFx-10), Sep 2010, Graz, Austria**
 
-- Ivan Cohen, Thomas Hélie. <a href="https://hal.archives-ouvertes.fr/hal-00631747" target="_blank">[Measures and parameter estimation of triodes, for the real-time simulation of a multi-stage guitar preamplifier]. **129th Convention of Audio Engineering Society, Nov 2010, San Francisco, United States**
+- Ivan Cohen, Thomas Hélie. [Measures and parameter estimation of triodes, for the real-time simulation of a multi-stage guitar preamplifier](https://hal.archives-ouvertes.fr/hal-00631747). **129th Convention of Audio Engineering Society, Nov 2010, San Francisco, United States**
 
-- Ivan Cohen, Thomas Hélie. <a href="https://hal.archives-ouvertes.fr/hal-00811215" target="_blank">[Measures and models of real triodes, for the simulation of guitar amplifiers]. **Société Française d'Acoustique. Acoustics 2012, Apr 2012, Nantes, France. 2012**
+- Ivan Cohen, Thomas Hélie. [Measures and models of real triodes, for the simulation of guitar amplifiers](https://hal.archives-ouvertes.fr/hal-00811215). **Société Française d'Acoustique. Acoustics 2012, Apr 2012, Nantes, France. 2012**
 
 ## Video talks
 
