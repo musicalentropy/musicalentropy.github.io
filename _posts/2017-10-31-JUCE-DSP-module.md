@@ -18,5 +18,5 @@ I have written this blog message today because recently I have create a few topi
 * [DSP module discussion / New class SIMDRegister](https://forum.juce.com/t/dsp-module-discussion-new-class-simdregister/24911)
 * [DSP module discussion / New classes in the maths folder](https://forum.juce.com/t/dsp-module-discussion-new-classes-in-the-maths-folder/24908)
 
-Otherwise, I'll be again at [ADC 17](https://www.juce.com/adc-2017) this year in London, presenting a talk called [Fifty Shades of Distortion](https://www.juce.com/adc-2017/talks#fifty-shades-of-distortion) (which will be on Youtube a few weeks later), and I'll update Spaceship Delay when I'm back with a few improvements + new functionalities !
+Otherwise, I'll be again at [ADC 17](https://www.juce.com/adc-2017) this year in London, presenting a talk called [Fifty Shades of Distortion](https://www.juce.com/adc-2017/talks#fifty-shades-of-distortion) (which will be on Youtube a few weeks later), and I'll update Spaceship Delay when I'm back with a few improvements + new functionalities!
 

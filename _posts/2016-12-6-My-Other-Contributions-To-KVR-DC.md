@@ -14,4 +14,4 @@ Two years later, it was [Guitar Gadgets](http://www.kvraudio.com/product/guitar-
 
 ![Guitar Gadgets Screenshot](http://static.kvraudio.com/i/b/screenshot2.1406976926.png)
 
-When I created it, I had just started to be a freelance developer, after having worked with the company Two Notes on the Torpedo product line for a couple of years. Today, I'm still working with them from time to time, and with a few other companies (I've made some contributions to [Sonic Academy Kick 2](https://www.sonicacademy.com/products/kick-2) or [TSE X50](https://www.sonicacademy.com/products/kick-2) for example). I'll probably release more personal stuff next year !
+When I created it, I had just started to be a freelance developer, after having worked with the company Two Notes on the Torpedo product line for a couple of years. Today, I'm still working with them from time to time, and with a few other companies (I've made some contributions to [Sonic Academy Kick 2](https://www.sonicacademy.com/products/kick-2) or [TSE X50](https://www.sonicacademy.com/products/kick-2) for example). I'll probably release more personal stuff next year!
