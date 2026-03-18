@@ -37,7 +37,7 @@ Then, very recently, and as you know, I released a new version of the plug-in.
 
 [The Great Escape 1.2.0]({{site.baseurl}}/images/TheGreatEscape-1.2.0.png)
 
-This project allowed me to incorporate the latest updates to the JUCE framework and my codebase, properly implement support for the latest operating systems, add CLAP to the list of available formats (currently only on Linux), and refine the emulation to better match the behavior of the original pedal, which I now own. However, paid collaboration is unlikely, and for this reason, I've focused on creating an emulation that closely resembles, but isn't strictly identical to, the original, with a few improvements over the initial version I released. Nevertheless, I'm very proud of the result, and as you can see, it sounds pretty good as an effect!
+This project allowed me to incorporate the latest updates to the JUCE framework and my codebase, properly implement support for the latest operating systems, add CLAP to the list of available formats (currently only on Linux), and to refine the emulation to better match the behavior of the original pedal, which I now own. However, paid collaboration is unlikely, and for this reason I've focused on creating an emulation that closely resembles, but isn't strictly identical to the original, with a few improvements over the initial version I released. 
 
 {% include soundcloudPlayer.html id="https://soundcloud.com/musicalentropy/little-wing-65-tge?in=musicalentropy/sets/the-great-escape-audio-demos" %}
 
