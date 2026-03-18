@@ -19,7 +19,7 @@ At that show, I had the chance to try out a few pedals, and I was particularly f
 
 When I decided to release a new freeware, the idea of completing this modeling work seemed very good to me, especially since I had the opportunity to discuss with [Pierre-Benoît Prud'homme](http://thrilltone.fr/), the founder of the pedal and the Thrilltone brand, which also makes great distortion pedals + others, whose graphic aesthetic I greatly appreciate (just look at this beauty):
 
-[Thrilltone Northern Lights]({{site.baseurl}}/images/Northern-Lights-009-600x600.png)
+![Thrilltone Northern Lights]({{site.baseurl}}/images/Northern-Lights-009-600x600.png)
 
 So we got in touch, and the idea of releasing a paid software tremolo emulation, initially with a rough model in a free version, seemed like a good one. The freeware plug-in was released as a VST/VST3/AU/AAX and even a Linux version, a first for me at the time. The plug-in regularly displayed lockdown recommendations, which I removed in a later version, and used the original pedal graphical designs, generously provided by Pierre-Benoît.
 
@@ -27,15 +27,15 @@ The idea was to discuss collaboration again for the paid version later, and to p
 
 I'll mention again that this is an analog tremolo emulation, with **its subtle touch of signal coloration** even when the tremolo isn't active. Beyond its sounds, it distinguishes itself from a classic tremolo by its ability to easily **add variety to the effect** itself, using a parametric envelope follower that can vary the speed and amount of the tremolo based on the signal's dynamics.
 
-[The Great Escape 1.2.0]({{site.baseurl}}/images/the_great_escape_manual.png)
+![The Great Escape 1.2.0]({{site.baseurl}}/images/the_great_escape_manual.png)
 
 The whole thing is also very well explained in the original manual, in the educational aspect of my plug-in which I had particularly pushed, and applies equally well to guitars as to vocals or synthesizers sounds.
 
-[The Great Escape 1.2.0]({{site.baseurl}}/images/the_great_escape_tutorial.png)
+![The Great Escape 1.2.0]({{site.baseurl}}/images/the_great_escape_tutorial.png)
 
 Then, very recently, and as you know, I released a new version of the plug-in.
 
-[The Great Escape 1.2.0]({{site.baseurl}}/images/TheGreatEscape-1.2.0.png)
+![The Great Escape 1.2.0]({{site.baseurl}}/images/TheGreatEscape-1.2.0.png)
 
 This project allowed me to incorporate the latest updates to the JUCE framework and my codebase, properly implement support for the latest operating systems, add CLAP to the list of available formats (currently only on Linux), and to refine the emulation to better match the behavior of the original pedal, which I now own. However, paid collaboration is unlikely, and for this reason I've focused on creating an emulation that closely resembles, but isn't strictly identical to the original, with a few improvements over the initial version I released. 
 
