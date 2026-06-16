@@ -8,7 +8,7 @@ Ivan Cohen is a freelance software developer from France, with an extensive expe
 
 He did a PhD thesis with the IRCAM and the company Two Notes about guitar amplifiers simulation from 2009 to 2012, and he has developed audio effects for a few companies using the JUCE framework, such as Sonic Academy, Filmstro, Wavesfactory, Hyvibe, ROLI / JUCE (DSP module), Two Notes, process.audio, AudioThing, Devious Machines, Audiority, Tone Projects etc. 
 
-He has been participating in conferences and trade shows, such as Audio Developer Conference or SynthFest France, to talk about virtual analog modeling, plug-ins develepment, or to conduct a workshop related with JUCE and filters modeling.
+He has been participating in conferences and trade shows, such as Audio Developer Conference or SynthFest France, to talk about virtual analog modeling, plug-ins development, or to conduct a workshop related with JUCE and filters modeling.
 
 {% include youtubePlayer.html id="oIChUOV_0w4" %}
 
