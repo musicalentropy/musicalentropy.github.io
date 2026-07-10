@@ -34,7 +34,7 @@ If we also add a feedback loop between the output and the input, these dips take
 
 So, what actually makes my phaser different from others? For starters, it features a very classic structure with a feedback loop, but the cutoff frequencies differ across the all-pass filters. This is actually quite unusual for analog phasers-except for Uni-Vibe clones or units influenced by them. Historically, those were the first types of phasers-originally designed to emulate Leslie cabinets in pedal form-and that specific characteristic (which gave my effect its name, unrelated to "vibe-coding") contributes to the sound of that legendary pedal (along with other factors, of course).
 
-{% include soundcloudPlayer.html id="https://soundcloud.com/musicalentropy/sets/voyage-voyage-audio-demos" %}
+{% include soundcloudPlayer.html id="https://soundcloud.com/musicalentropy/sets/phaser-vibe-audio-demos" %}
 
 Another point of interest is the shape of the modulation signal from the LFO and how it translates into an actual cutoff frequency for the all-pass filters. This might seem insignificant at first, but factors such as:
 - the transition from a linear to an exponential curve,
