@@ -6,13 +6,13 @@ permalink: /downloads/
 
 You will find on this page the links to download current Musical Entropy plug-ins creations.
 
-#### Voyage Voyage v1.0.1 (last update July 13th 2026)
+#### Voyage Voyage v1.0.2 (last update July 24th 2026)
 
-Windows 10+ VST3/CLAP: [Link](https://static.kvraudio.com/files/1944/voyagevoyage-1-0-1-windows.zip)
+Windows 10+ VST3/CLAP: [Link](https://static.kvraudio.com/files/1944/voyagevoyage-1-0-2-windows.zip)
 
-macOS 10.13+ VST3/AU/CLAP: [Link](https://static.kvraudio.com/files/1944/voyagevoyage-1-0-1-macos.zip)
+macOS 10.13+ VST3/AU/CLAP: [Link](https://static.kvraudio.com/files/1944/voyagevoyage-1-0-2-macos.zip)
 
-Linux Ubuntu22+ VST3/CLAP: [Link](https://static.kvraudio.com/files/1944/voyagevoyage-1-0-1-ubuntu22.zip)
+Linux Ubuntu22+ VST3/CLAP: [Link](https://static.kvraudio.com/files/1944/voyagevoyage-1-0-2-ubuntu22.zip)
 
 #### Phaser Vibe for Korg Logue platforms v1.0.1 (last update June 19th 2026)
 
