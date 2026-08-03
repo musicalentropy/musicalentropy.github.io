@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The Great Escape Final Release
+description: "New update for The Great Escape with DSP and UI improvements, and information about the making of."
+tags: [releases, Thrilltone, tremolo, dark mode]
 ---
 
 Hello everyone! Today, I'm going to talk to you about the latest version of **my freeware The Great Escape**, and also a little bit about the development history of this plug-in, something I didn't have the opportunity to do here when it was released. You can still find it here:
@@ -15,7 +17,7 @@ Moreover, a few weeks earlier, I had the chance to participate in a show in Pari
 
 At that show, I had the chance to try out a few pedals, and I was particularly fond of the famous The Great Escape by Thrilltone. This tremolo sounded really good, and using dynamics to manipulate its parameters with just a few knobs struck me as a brilliant idea, and a fun way to rediscover playing with a tremolo. Just a few days later, I loved the concept so much that I tried to recreate it in a plug-in, mostly by ear, especially the dynamics side. And that resulted in this magnificent prototype :)
 
-![Prototype du plug-in The Great Escape]({{site.baseurl}}/images/TheGreatEscapePrototype.png)
+![Plug-in prototype]({{site.baseurl}}/images/TheGreatEscapePrototype.png)
 
 When I decided to release a new freeware, the idea of completing this modeling work seemed very good to me, especially since I had the opportunity to discuss with [Pierre-Benoît Prud'homme](http://thrilltone.fr/), the founder of the pedal and the Thrilltone brand, which also makes great distortion pedals + others, whose graphic aesthetic I greatly appreciate (just look at this beauty):
 
@@ -39,7 +41,7 @@ Then, very recently, and as you know, I released a new version of the plug-in.
 
 This project allowed me to incorporate the latest updates to the JUCE framework and my codebase, properly implement support for the latest operating systems, add CLAP to the list of available formats (currently only on Linux), and to refine the emulation to better match the behavior of the original pedal, which I now own. However, paid collaboration is unlikely, and for this reason I've focused on creating an emulation that closely resembles, but isn't strictly identical to the original, with a few improvements over the initial version I released. 
 
-{% include soundcloudPlayer.html id="https://soundcloud.com/musicalentropy/little-wing-65-tge?in=musicalentropy/sets/the-great-escape-audio-demos" %}
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A2208161729&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/musicalentropy" title="musicalentropy" target="_blank" style="color: #cccccc; text-decoration: none;">musicalentropy</a> · <a href="https://soundcloud.com/musicalentropy/sets/the-great-escape-audio-demos" title="The Great Escape Audio Demos" target="_blank" style="color: #cccccc; text-decoration: none;">The Great Escape Audio Demos</a></div>
 
 In any case, I'm very proud of this plug-in, very happy to have been able to work with Pierre-Benoît on the emulation of his awesome software tremolo, and I'll keep you updated on my upcoming releases and work. I'll have some announcements to make very soon about that :)
 

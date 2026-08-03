@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Machine Learning Hackathon
+tags: [machine learning, JUCE]
 ---
 As you might not know yet, my main occupation today is being a freelance developer and audio signal processing engineer. I do consulting jobs mainly for companies in the audio industry. Last month, [ROLI](https://roli.com/) and the [JUCE](http://www.juce.com) team asked me to work on a Machine Learning JUCE module, in order to make it available for a special event, a Hackathon in London. JUCE is the famous SDK that is being used by more and more developers (including me) to release multi-platform audio applications and plug-ins.
 

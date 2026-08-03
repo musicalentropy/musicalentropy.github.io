@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New Spaceship Delay version online!
+tags: [releases, kvrdc, spaceships]
 ---
 
 I have just updated Spaceship Delay on KVR audio. You can get the new version here: [Spaceship Delay 1.0.2](http://www.kvraudio.com/product/spaceship-delay-by-musical-entropy/details)

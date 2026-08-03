@@ -290,6 +290,14 @@ main { flex: 1 0 auto; padding: 3rem 0 4rem; }
   display: block;
   margin: 1.8rem auto;
 }
+.post__body iframe {
+  display: block;
+  width: 100%;
+  border: 0;
+  margin: 1.8rem 0;
+  color-scheme: light;
+}
+
 .post__body figcaption,
 .post__body em.caption {
   font-family: var(--font-mono);

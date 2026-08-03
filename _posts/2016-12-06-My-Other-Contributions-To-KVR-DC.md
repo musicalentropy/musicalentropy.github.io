@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My other contributions to KVR Developer Challenges
+tags: [kvrdc, gadgets, inspiration]
 ---
 
 In this new post, I'm going to talk a little about the things I did in the past.

@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Phaser Vibe for Logue SDK release
+title: Phaser Vibe for Korg Logue products release
+description: "Some information about the development of Logue Phaser Vibe and phasers DSP."
+cover: /images/covers/phaser-vibe.png
+tags: [releases, logue-sdk, phasers, DSP]
 ---
 
-Hello everyone! 
-
-Today, I'm going to talk to you about the release of a new freeware plug-in that has been made for the Korg Logue platform. Various products from the Japanese company indeed allow for the loading of third-party plug-ins, namely:
+Let's talk about the release of a new freeware plug-in that has been made for the Korg Logue platform. Various products from the Japanese company indeed allow for the loading of third-party plug-ins, namely:
 
 - NTS-1 and NTS-1 mk2
 - NTS-3
@@ -34,7 +35,7 @@ If we also add a feedback loop between the output and the input, these dips take
 
 So, what actually makes my phaser different from others? For starters, it features a very classic structure with a feedback loop, but the cutoff frequencies differ across the all-pass filters. This is actually quite unusual for analog phasers-except for Uni-Vibe clones or units influenced by them. Historically, those were the first types of phasers-originally designed to emulate Leslie cabinets in pedal form-and that specific characteristic (which gave my effect its name, unrelated to "vibe-coding") contributes to the sound of that legendary pedal (along with other factors, of course).
 
-{% include soundcloudPlayer.html id="https://soundcloud.com/musicalentropy/sets/phaser-vibe-audio-demos" %}
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A2221530371&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/musicalentropy" title="musicalentropy" target="_blank" style="color: #cccccc; text-decoration: none;">musicalentropy</a> · <a href="https://soundcloud.com/musicalentropy/sets/phaser-vibe-audio-demos" title="Phaser Vibe Audio Demos" target="_blank" style="color: #cccccc; text-decoration: none;">Phaser Vibe Audio Demos</a></div>
 
 Another point of interest is the shape of the modulation signal from the LFO and how it translates into an actual cutoff frequency for the all-pass filters. This might seem insignificant at first, but factors such as:
 - the transition from a linear to an exponential curve,

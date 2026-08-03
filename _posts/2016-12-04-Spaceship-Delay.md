@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Spaceship Delay presentation and KVR DC 16
+tags: [releases, kvrdc, spaceships, delay]
 ---
 
 Today, I'm going to present you the new freeware audio plug-in that I have released for the [KVR Developer Challenge 2016](http://www.kvraudio.com/kvr-developer-challenge/2016/). It is called Spaceship Delay, and you can grab it [here](https://www.kvraudio.com/kvr-developer-challenge/2016/#dc16-12755).

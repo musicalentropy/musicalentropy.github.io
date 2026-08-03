@@ -1,6 +1,7 @@
 ---
 layout: post
 title: JUCE 5.1 DSP module
+tags: [releases, JUCE, DSP]
 ---
 In July 2017, I did work again for [ROLI](https://roli.com/) and the [JUCE](http://www.juce.com) team, to improve the SDK I use all the time to develop multi-platform audio applications and plug-ins, and to provide some DSP code that has been included since in the so-called [DSP module](https://juce.com/releases/juce-5-1).
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Spaceship Delay Anecdotes
+tags: [kvrdc, spaceships, spring reverb]
 ---
 
 I'd like to share something cool with you today!

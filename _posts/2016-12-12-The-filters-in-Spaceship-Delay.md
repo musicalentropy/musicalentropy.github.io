@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The filters in Spaceship Delay
+tags: [kvrdc, spaceships, filters, DSP]
 ---
 
 In that new blog post I'm going to talk about the filter algorithms that are implemented in [Spaceship Delay](http://www.kvraudio.com/product/spaceship-delay-by-musical-entropy/details)! Right now, you can see 4 different filter types in the filter section : Low/High Cut, Low/High Shelf, Japanese, and German/Canadian.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: KVR DC 2016 results and a few announcements
+tags: [releases, kvrdc, spaceships]
 ---
 
 So, you might already know, but the [KVR DC 16 is finished](https://www.kvraudio.com/kvr-developer-challenge/2016/), and I ended at rank #3! I would like to thank a lot all the people who have been supporting [Spaceship Delay](http://www.kvraudio.com/product/spaceship-delay-by-musical-entropy/details) during the contest and who are still planning to use it, particularly the ones who helped me to make the Pro Tools version on Mac OS X in the forums or with Skype, or the amazing guy who worked during the KVR DC on a custom skin! Thanks a lot again!
