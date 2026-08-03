@@ -10,7 +10,9 @@ Hello everyone! In this new blog post, we're going to talk about the release of 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X3ZavdSpb00?si=dqmbGDctfGw2ieAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-And above all, we're going to talk about **product design**, a subject I'm currently very passionate about, and one that some developers occasionally discuss, such as Tomislav Zlatic from Bedroom Producers Blog + Flame Sound regarding the release of his plug-in [Vatra](https://bedroomproducersblog.com/2026/07/31/making-vatra/). 
+We're going to talk about **product design**, a subject I'm currently very passionate about, and one that some developers occasionally discuss, such as Tomislav Zlatic from Bedroom Producers Blog + Flame Sound regarding the release of his plug-in [Vatra](https://bedroomproducersblog.com/2026/07/31/making-vatra/). 
+
+You are about to read about the process I used to select the plug-in's final controls, how I laid out the graphical interface, the elements I focused on for this new competition entry like accessibility and sweet spots, the reasons behind this unconventional concept (reverb + instrument), and my general workflow when creating a plug-in, for people who would like to work with me on their own projects (don't hesitate to contact me using the [social networks](https://www.instagram.com/musical.entropy/) if you do!)
 
 ## A circular approach to designing products
 
@@ -105,5 +107,3 @@ So I'm very happy to have seen this plugin project through to completion, regard
 And yes, I still don't know where our world is headed with AI, nor how far I'll go in using the tool, though I already see quite a few applications I want to ban entirely from my workflow. I aim to stick to what I'd call "fair use" as much as possible, at least until I inevitably change my mind on the subject a hundred more times. I hope you appreciate my transparency here, as well as my desire to minimize AI involvement (even more the models involving capitalist structures) in my future work so that it can still be considered truly personal creation, especially since creating this way is simply more fun!
 
 Stay safe!
-
-PS. If you want to talk about DSP or product design for your own projects, don't hesitate to contact me using the social networks!
