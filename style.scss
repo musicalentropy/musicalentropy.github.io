@@ -55,6 +55,19 @@ li::marker { color: var(--ink-soft); }
 /* Les listes de mise en page restent sans marqueur */
 .entry-list, .site-nav { list-style: none; }
 
+/* _reset.scss (Meyer) applique `font: inherit` à b/strong/i/em et neutralise
+   sup/sub : on restaure la sémantique inline. */
+b, strong { font-weight: 600; }
+i, em { font-style: italic; }
+em strong, strong em { font-weight: 600; font-style: italic; }
+u, ins { text-decoration: underline; }
+s, del { text-decoration: line-through; }
+small { font-size: 0.86em; }
+mark { background: var(--trace-soft); color: inherit; padding: 0 0.2em; }
+sup, sub { font-size: 0.72em; line-height: 0; position: relative; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
 a {
   color: var(--trace);
   text-decoration: none;
