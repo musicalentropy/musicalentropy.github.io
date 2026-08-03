@@ -1,9 +1,9 @@
 ---
 layout: post
-title: How I designed a Shimmer Reverb in one month
-description: "Some information and thoughts about Voyage Voyage product design process."
+title: How I designed a unusual Shimmer Reverb in one month
+description: "Information and thoughts related to Voyage Voyage product design process."
 cover: /images/covers/voyage_voyage.png
-tags: [kvrdc, product design, ai, voyages]
+tags: [kvrdc, product design, voyages]
 ---
 
 Hello everyone! In this new blog post, we're going to talk about the release of my latest plug-in, Voyage Voyage, a freeware Shimmer reverb and drone/texture generator currently competing in the latest [KVR Developer Challenge 2026](https://www.kvraudio.com/kvr-developer-challenge/2026/), available for Windows, macOS, and Linux in VST3, AU, and CLAP formats. 
@@ -12,13 +12,13 @@ Hello everyone! In this new blog post, we're going to talk about the release of 
 
 We're going to talk about **product design**, a subject I'm currently very passionate about, and one that some developers occasionally discuss, such as Tomislav Zlatic from Bedroom Producers Blog + Flame Sound regarding the release of his plug-in [Vatra](https://bedroomproducersblog.com/2026/07/31/making-vatra/). 
 
-You are about to read about the process I used to select the plug-in's final controls, how I laid out the graphical interface, the elements I focused on for this new competition entry like accessibility and sweet spots, the reasons behind this unconventional concept (reverb + instrument), and my general workflow when creating a plug-in, for people who would like to work with me on their own projects (don't hesitate to contact me using the [social networks](https://www.instagram.com/musical.entropy/) if you do!)
+You are about to read about the process I used to select the plug-in's final controls, in which little to no AI is used (I am still considering what I want to do with these technologies and what would constitute "fair use", which will be the subject of another blog post), how I laid out the graphical interface, the elements I focused on for this new competition entry like accessibility and sweet spots, the reasons behind this unconventional concept (reverb + instrument), and my general workflow when creating a plug-in, for people who would like to work with me on their own projects (don't hesitate to contact me using the [social networks](https://www.instagram.com/musical.entropy/) if you do!)
 
 ## A circular approach to designing products
 
 Product design is a topic that has been a real obsession of mine for some time now.
 
-As a freelance developer, I've had a few opportunities to be involved in this stage of plugin creation, though, for the most part, my clients already had a fairly clear vision of what they wanted and came to me to address a specific, identified need (such as emulating a particular electronic circuit, testing various algorithms for a specific type of effect, or troubleshooting an existing project). 
+As a freelance developer, I've had a few opportunities to be involved in this stage of plug-in creation, though, for the most part, my clients already had a fairly clear vision of what they wanted and came to me to address a specific, identified need (such as emulating a particular electronic circuit, testing various algorithms for a specific type of effect, or troubleshooting an existing project). 
 
 What particularly interested me about this was seeing the extent to which completely unrelated fields could intertwine at this stage, ranging from graphic design, ergonomics, and UX design to researching best practices in existing products, and synthesizing the essential aspects of DSP blocks versus what should or could be made user-editable. 
 
@@ -30,7 +30,7 @@ What fascinates me about this is that product design is a sort of **circular pro
 
 ## Ever faster and for less time
 
-It must be said that, in this year 2026, I personally observe that many things have changed in the world of plugins. To summarize, I would say that the advent of AI has caused a stir, but has also accelerated a number of things that already existed, such as market saturation or the continuous devaluation of plugins that are put online, driven in particular by the phenomenon of "promotional periods that are no longer the exception," with these famous plugins officially on sale at 250 euros but whose average value over 365 days is less than 25% of this price, with a minimum of 5-6 different promotional periods per year (see for example these *deals* from the [promotions page of the Synth Anatomy blog](https://synthanatomy.com/category/best-music-tech-plugin-deals-you-need-to-know/plugin-deals)).
+It must be said that, in this year 2026, I personally observe that many things have changed in the world of plug-ins. To summarize, I would say that the advent of AI has caused a stir, but has also accelerated a number of things that already existed, such as market saturation or the continuous devaluation of plug-ins that are put online, driven in particular by the phenomenon of "promotional periods that are no longer the exception," with these famous plug-ins officially on sale at 250 euros but whose average value over 365 days is less than 25% of this price, with a minimum of 5-6 different promotional periods per year (see for example these *deals* from the [promotions page of the Synth Anatomy blog](https://synthanatomy.com/category/best-music-tech-plug-in-deals-you-need-to-know/plug-in-deals)).
 
 ![Deals from Synth Anatomy]({{site.baseurl}}/images/synthanatomy_deals.png)
 
@@ -38,21 +38,9 @@ Furthermore, some of my clients (those who rely on human expertise) have faced m
 
 But above all, for me, it highlighted flaws in their product design approach, flaws that weren't significant five years ago but cause concrete problems today. That is why I began educating myself on the subject and increasingly advising my clients on it over time, with a strong focus on monitoring industry best practices, particularly among a few key brands.
 
-## Artificial Intelligence and Human Stupidity
-
-Given the various pressures currently affecting my work as a freelancer and consultant, I decided at the start of the year to train myself on AI tools applicable to my field, or even capable of competing with my services. My goal was to potentially boost productivity and advise clients who have questions, but also - let's be honest - to be able to speak critically about them from an *informed* perspective, should the opportunity arise :)
-
-It must be said that I rather have a natural tendency to want to stay as far away from it as possible, and that I understand in any case that certain practices are very poorly viewed by customers (such as the creation of music or even sound material with Suno, the generation of images, em dashes or generic websites, AI slop in general etc.), not to mention the whole ethical dimension (militarization, energy and water expenditure, pollution, hidden work among annotators, surveillance and sovereignty, pressure on the world of work), or the risks posed by the creation of a financial bubble similar to dot-com of the early 2000s. However, it did not seem viable to me to simply play the ostrich game, or even to ignore certain real advances in the field such as the uses of local open source models or what these tools can bring to neuroatypical people for example. 
-
-![AI Slop](https://juniortoexpert.com/wp-content/uploads/ai-slop.png.webp)
-
-At the same time, I finally started working on the actual release - guaranteed procrastination-free - of my first commercial plug-in (which we'll be discussing very soon). I took the opportunity to take stock of the skills needed to complete the project, as well as the automation of the associated development and deployment stages (installers, scripts, continuous integration, reusable JUCE modules, etc.). 
-
-In fact, the recent updates to Spaceship Delay and The Great Escape reflect this approach. Establishing best practices also meant finding the right balance regarding the use of AI tools, something I really began to explore in depth mid-year. As it happens, a project I was working on for a client gave me the chance to put all of this to the test, alongside the opportunity to participate once again in the KVR Developer Challenge, this time the 2026 edition, a full decade after the one featuring Spaceship Delay (it really makes you realize how time flies).
-
 ## Create a new freeware plug-in in 2026?
 
-When the KVR DC 2026 was announced, I have to admit I wasn't keen on participating, given my workload at the time and the fact that I hadn't yet fully visualized the release of my mystery commercial plug-in. I had a few ideas-none of which were feasible within three months, obviously, but certainly nothing that really grabbed me.
+When the KVR DC 2026 was announced, I have to admit I wasn't keen on participating, given my work schedule at the time and the fact that I hadn't yet fully visualized the release of my mystery commercial plug-in. I had a few ideas, none of which were feasible within three months, but certainly nothing that really grabbed me.
 
 Then, while working on a Shimmer reverb algorithm (yes, the kind that feeds the reverb signal into a pitch shifter set an octave higher, popularized by Brian Eno, U2, and Valhalla's plug-in), I found myself having fun trying to sustain the feedback loop for as long as possible. I added various effects that could be tweaked in real-time, like dynamic compression to keep the output from exploding, until it felt less like using a mere effects box and more like playing an actual instrument.
 
@@ -90,7 +78,7 @@ I had actually started working on a project to automate plug-in design, which, u
 
 ![Knobs categories](https://d6a2e7ghqts3o.cloudfront.net/AcuCustom/Sitename/DAM/513/2019GPXPedalKnobs700V2.jpg)
 
-Finally, and let's be very clear about this right from the start, the graphic design for *Voyage Voyage* is the result of my work in Affinity Photo, involving layers of diverse materials and the use of the venerable Knobman3D for the potentiometers. I had a very personal vision for the design that evolved through iteration; I incorporated some reworked, royalty-free assets from the web, a drawing by my daughter that I vectorized, and some AI-generated abstract elements for the pedal's background, something I recently discussed over at [Bedroom Producers Blog](https://bedroomproducersblog.com/2026/07/29/musical-entropy-voyage-voyage/). I also briefly tested the capabilities of certain paid AI models while I was learning the ropes. I quickly realized that the results I was achieving on my own were great, and way more satisfying in every respect, even with my current skill level :)
+Finally, and let's be very clear about this right from the start, the graphic design for *Voyage Voyage* is the result of my work in Affinity Photo, involving layers of diverse materials and the use of the venerable Knobman3D for the potentiometers. I had a very personal vision for the design that evolved through iteration; I incorporated some reworked, royalty-free assets from the web, a drawing by my daughter that I vectorized, and some AI-generated abstract elements for the pedal's background, something I recently discussed over at [Bedroom Producers Blog](https://bedroomproducersblog.com/2026/07/29/musical-entropy-voyage-voyage/). I also briefly tested the capabilities of certain paid AI models while I was learning the ropes. I quickly realized that the results I was achieving on my own were great, and way more satisfying in every respect, even with my current skill level!
 
 ![Space Cat by LC]({{site.baseurl}}/images/OriginalSpaceCat.png)
 
@@ -100,10 +88,8 @@ I also took a look at **JUCE's accessibility features**, integrated into the cor
 
 ![Rendering simulation for people with color blindness]({{site.baseurl}}/images/VoyageVoyage-ColourSims.png)
 
-So I'm very happy to have seen this plugin project through to completion, regardless of the contest outcome, and I fully intend to keep talking about it and adding a few more features after the competition ends. I also hope you enjoyed my long post! If you liked my work and my explanations, please feel free to download the plugin and vote for it, as well as for the work of the other developers participating in the [KVR Audio Developer Challenge](https://www.kvraudio.com/kvr-developer-challenge/2026/). You might also notice that I've done a bit of cleanup on my two websites (here and at musicalentropy.com).
+So I'm very happy to have seen this plug-in project through to completion, regardless of the contest outcome, and I fully intend to keep talking about it and adding a few more features after the competition ends. I also hope you enjoyed my long post! If you liked my work and my explanations, please feel free to download the plug-in and vote for it, as well as for the work of the other developers participating in the [KVR Audio Developer Challenge](https://www.kvraudio.com/kvr-developer-challenge/2026/). You might also notice that I've done a bit of cleanup on my two websites (here and at musicalentropy.com).
 
 [Voyage Voyage by Musical Entropy](https://musicalentropy.com/VoyageVoyage.html)
-
-And yes, I still don't know where our world is headed with AI, nor how far I'll go in using the tool, though I already see quite a few applications I want to ban entirely from my workflow. I aim to stick to what I'd call "fair use" as much as possible, at least until I inevitably change my mind on the subject a hundred more times. I hope you appreciate my transparency here, as well as my desire to minimize AI involvement (even more the models involving capitalist structures) in my future work so that it can still be considered truly personal creation, especially since creating this way is simply more fun!
 
 Stay safe!
