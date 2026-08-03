@@ -1,27 +1,77 @@
+// =============================================================
+// Musical Entropy — design tokens
+// Direction : "feuille de mesure" — papier à graticule, encre,
+// une seule couleur de tracé, métadonnées en monospace.
+// =============================================================
 
-//
-// VARIABLES
-//
+:root {
+  // --- Couleurs (mode clair) ---
+  --ground:      #ecede8;   // papier
+  --surface:     #f7f7f4;   // cartes
+  --ink:         #14161a;   // texte
+  --ink-soft:    #5c6068;   // métadonnées
+  --rule:        rgba(20, 22, 26, 0.14);
+  --trace:       #b4460f;   // accent unique — orange brûlé
+  --trace-soft:  rgba(180, 70, 15, 0.11);
+  --on-trace:    #ffffff;   // texte posé sur l'accent
+  --code-bg:     #f2f2ee;
 
-// Colors
-$blue: #4183C4;
+  // --- Typographie ---
+  --font-display: "IBM Plex Sans Condensed", "Helvetica Neue", sans-serif;
+  --font-body:    "IBM Plex Serif", Georgia, serif;
+  --font-mono:    "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
 
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+  --step--1: clamp(0.78rem, 0.76rem + 0.10vw, 0.84rem);
+  --step-0:  clamp(1.02rem, 0.99rem + 0.16vw, 1.12rem);
+  --step-1:  clamp(1.22rem, 1.15rem + 0.35vw, 1.44rem);
+  --step-2:  clamp(1.50rem, 1.35rem + 0.75vw, 2.00rem);
+  --step-3:  clamp(1.90rem, 1.60rem + 1.50vw, 2.90rem);
 
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+  // --- Espacement / rythme ---
+  --gap:      1.25rem;
+  --measure:  66ch;
+  --wrap:     min(100% - 2.5rem, 46rem);
+  --wrap-wide: min(100% - 2.5rem, 66rem);
+  --radius:   4px;
 
-// Mobile breakpoints
+  color-scheme: light;
+}
+
+// --- Mode sombre : automatique + forçable via [data-theme] ---
+@mixin dark-tokens {
+  --ground:     #14161c;
+  --surface:    #1b1e26;
+  --ink:        #e6e7ea;
+  --ink-soft:   #979ca8;
+  --rule:       rgba(255, 255, 255, 0.13);
+  --trace:      #ff8a4c;
+  --trace-soft: rgba(255, 138, 76, 0.16);
+  --on-trace:   #14161c;
+  --code-bg:    #10121a;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { @include dark-tokens; }
+}
+:root[data-theme="dark"] { @include dark-tokens; }
+
+// =============================================================
+// Compat Jekyll Now — ne pas supprimer tant que _reset.scss,
+// _highlights.scss et _svg-icons.scss sont importés.
+// =============================================================
+$white:       #fff;
+$black:       #000;
+$darkerGray:  #222;
+$darkGray:    #333;
+$gray:        #828282;
+$lightGray:   #eee;
+$blue:        #b4460f;
+$helvetica:      var(--font-body);
+$helveticaNeue:  var(--font-display);
+
+$mobile: 640px;
+
 @mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
-  }
+  @media screen and (max-width: $mobile) { @content; }
 }

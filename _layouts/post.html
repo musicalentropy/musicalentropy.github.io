@@ -2,16 +2,48 @@
 layout: default
 ---
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+<article class="wrap post" itemscope itemtype="https://schema.org/BlogPosting">
 
-  <div class="entry">
+  <header class="post__header">
+    <p class="spec">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d %b %Y" }}</time>
+      <span>{{ page.content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+      {% for tag in page.tags %}<span><a class="tag" href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a></span>{% endfor %}
+    </p>
+
+    <h1 class="post__title" itemprop="headline">{{ page.title }}</h1>
+
+    {% if page.cover %}
+      <img class="entry__cover" src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt | default: page.title }}" loading="eager">
+    {% endif %}
+  </header>
+
+  <div class="post__body" itemprop="articleBody">
     {{ content }}
   </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
+  <footer class="post__footer">
+    <p class="spec">
+      <span>Ivan Cohen — freelance audio DSP</span>
+      <span><a href="https://www.musicalentropy.com" target="_blank" rel="noopener">Get the plug-ins</a></span>
+    </p>
 
-  {% include disqus.html %}
+    <nav class="pagenav" aria-label="More posts">
+      {% if page.previous %}
+        <a class="prev" href="{{ page.previous.url | relative_url }}">
+          <span>← Previous</span>{{ page.previous.title }}
+        </a>
+      {% else %}<span></span>{% endif %}
+      {% if page.next %}
+        <a class="next" href="{{ page.next.url | relative_url }}">
+          <span>Next →</span>{{ page.next.title }}
+        </a>
+      {% endif %}
+    </nav>
+
+    {% if site.disqus %}
+      <div class="comments">{% include disqus.html %}</div>
+    {% endif %}
+  </footer>
+
 </article>

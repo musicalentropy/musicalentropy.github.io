@@ -1,0 +1,29 @@
+---
+layout: default
+title: Tags
+permalink: /tags/
+---
+
+<div class="wrap">
+  <p class="page-eyebrow">Index</p>
+  <h1 class="post__title">Posts by topic</h1>
+
+  {% assign tags = site.tags | sort %}
+  <p class="spec">
+    {% for tag in tags %}<span><a class="tag" href="#{{ tag[0] | slugify }}">{{ tag[0] }} ({{ tag[1] | size }})</a></span>{% endfor %}
+  </p>
+
+  {% for tag in tags %}
+    <section id="{{ tag[0] | slugify }}">
+      <h2>{{ tag[0] }}</h2>
+      <ol class="entry-list">
+        {% for post in tag[1] %}
+          <li class="entry">
+            <p class="spec"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time></p>
+            <h3 class="entry__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          </li>
+        {% endfor %}
+      </ol>
+    </section>
+  {% endfor %}
+</div>
