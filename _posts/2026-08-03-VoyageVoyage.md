@@ -1,9 +1,9 @@
 ---
 layout: post
-title: How I designed a unusual Shimmer Reverb in one month
+title: How I designed an unusual Shimmer Reverb in one month
 description: "Information and thoughts related to Voyage Voyage product design process."
 cover: /images/covers/voyage_voyage.png
-tags: [kvrdc, product design, voyages]
+tags: [kvrdc, product design, voyages, accessibility]
 ---
 
 Hello everyone! In this new blog post, we're going to talk about the release of my latest plug-in, Voyage Voyage, a freeware Shimmer reverb and drone/texture generator currently competing in the latest [KVR Developer Challenge 2026](https://www.kvraudio.com/kvr-developer-challenge/2026/), available for Windows, macOS, and Linux in VST3, AU, and CLAP formats. 
